@@ -837,6 +837,7 @@ input.invalid, select.invalid, textarea.invalid {
   border: 1px solid #b7e3c4;
   color: #1d5b31;
 }
+.form-alert[hidden] { display: none; }
 .form-alert svg { flex: none; margin-top: 2px; color: #2b7a47; }
 .form-alert p { margin: 0; font-size: .95rem; line-height: 1.55; }
 .form-alert a { color: #1d5b31; font-weight: 700; }
